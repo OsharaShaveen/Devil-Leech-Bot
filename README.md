@@ -1,9 +1,3 @@
-[![HM LEECH ZONE BOT](https://telegra.ph/file/9c54af2d6f60f215ab0ec.png)](https://t.me/DareAbijth)
-
-owner of this repo :- [Abijthkutty](https://github.com/Abijithkutty)
-
-contact me :- [Abijth](https://t.me/DareAbijth)
-
 
 
 # Telegram Torrent and Direct links Leecher 
@@ -51,7 +45,7 @@ contact me :- [Abijth](https://t.me/DareAbijth)
                                                                          
 ## Deploying on Heroku
 Click on the below button 👇👇👇👇
-<p><a href="https://heroku.com/deploy?template=https://github.com/DareAbijth/Link-To-File"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/OsharaShaveen/Devil-Leech"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
 
 ## Variable Explanations 👇
@@ -184,10 +178,3 @@ Available BOT  Commands | Usage
      log - This will send you a txt file of the logs.(admin only)⚠️
      rclone - This will change your drive config on fly.(First one will be default)--(admin only)⚠️
 ---
-## How to Use?
-
-### send any one of the available command, as a reply to a valid link/magnet/torrent. 
-
-## Credits, and Thanks to
-* 
-[TypicalGamerYT](https://github.com/TypicalGamerYT) For His Rclone.config
