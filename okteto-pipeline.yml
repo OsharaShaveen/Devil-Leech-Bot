@@ -1,0 +1,5 @@
+deploy:
+#  - okteto build -t okteto.dev/v2ray-okteto:latest
+#  - okteto build -t dorowu/ubuntu-desktop-lxde-vnc:focal-lxqt
+  - sudo docker build . -t torrentleech-gdrive
+  - sudo docker run torrentleech-gdrive
