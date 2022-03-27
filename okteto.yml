@@ -1,0 +1,17 @@
+name: python-fastapi
+selector:
+  app.kubernetes.io/component: api
+image: okteto/python-fastapi
+command: bash
+environment:
+  - ENV=dev
+workdir: /okteto
+volumes:
+- /root/.cache/pip
+sync:
+- .:/okteto
+remote: 2222
+forward:
+- 8080:8080
+reverse:
+- 9000:9000

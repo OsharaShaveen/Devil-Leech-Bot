@@ -1,6 +1,8 @@
 deploy:
-#  - okteto build -t okteto.dev/v2ray-okteto:latest
-#  - okteto build -t dorowu/ubuntu-desktop-lxde-vnc:focal-lxqt
-  - sudo snap install docker
-  - sudo docker build . -t torrentleech-gdrive
-  - sudo docker run torrentleech-gdrive
+  - helm repo add okteto https://apps.okteto.com
+  - helm repo update
+  - helm upgrade --install rabbitmq okteto/rabbitmq -f rabbitmq-values.yml
+  - kubectl apply -f k8s.yml
+devs:
+  - okteto.yml
+  - okteto-worker.yml
